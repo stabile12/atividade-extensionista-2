@@ -1,0 +1,90 @@
+/* Home.module.css */
+
+/* Container principal */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+}
+
+/* Container dos setores */
+.setores {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Estilo comum para as seções (alunos, voluntários, materiais) */
+.setores > div {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  max-height: 80vh; /* Defina a altura máxima */
+  overflow-y: auto; /* Adicione scrollbar vertical quando necessário */
+}
+
+/* Títulos das seções */
+.setores > div h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+/* Formulários de adição */
+.form {
+  margin-bottom: 16px;
+}
+
+.form input {
+  margin-bottom: 8px;
+  padding: 8px;
+  width: calc(100% - 16px);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form button {
+  background-color: #0d571c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #15b334;
+}
+
+/* Card de aluno e voluntário */
+.aluno, .voluntario, .material {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.aluno p, .voluntario p {
+  margin: 8px 0;
+}
+
+/* Botões */
+button {
+  background-color: #16ca3a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #15b334;
+}
