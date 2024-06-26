@@ -1,6 +1,4 @@
-/* Home.module.css */
 
-/* Container principal */
 .container {
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -8,14 +6,14 @@
   
 }
 
-/* Container dos setores */
+
 .setores {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
 
-/* Estilo comum para as seções (alunos, voluntários, materiais) */
+
 .setores > div {
   flex: 1;
   padding: 20px;
@@ -23,17 +21,17 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #f9f9f9;
-  max-height: 80vh; /* Defina a altura máxima */
-  overflow-y: auto; /* Adicione scrollbar vertical quando necessário */
+  max-height: 80vh; 
+  overflow-y: auto; 
 }
 
-/* Títulos das seções */
+
 .setores > div h2 {
   margin-bottom: 16px;
   font-size: 24px;
 }
 
-/* Formulários de adição */
+
 .form {
   margin-bottom: 16px;
 }
@@ -60,7 +58,7 @@
   background-color: #15b334;
 }
 
-/* Card de aluno e voluntário */
+
 .aluno, .voluntario, .material {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -74,7 +72,7 @@
   margin: 8px 0;
 }
 
-/* Botões */
+
 button {
   background-color: #16ca3a;
   color: #fff;

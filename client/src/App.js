@@ -11,9 +11,6 @@ function App() {
         <Route path='/login' element={<Login/>} />
       </Routes>
     </BrowserRouter>
-    /*<div>
-      asdasd
-    </div>*/
   );
 }
 
